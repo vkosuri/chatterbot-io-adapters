@@ -11,14 +11,14 @@ VERSION = CHATTERBOT_ADAPTERS.__version__
 AUTHOR = CHATTERBOT_ADAPTERS.__author__
 AUTHOR_EMAIL = CHATTERBOT_ADAPTERS.__email__
 URL = CHATTERBOT_ADAPTERS.__url__
-DESCRIPTION = CHATTERBOT_ADAPTERS.__doc__
-LONG_DESCRIPTION = ""
+DESCRIPTION = 'ChatterBots input and ouput adapters'
+LONG_DESCRIPTION = 'ChatterBots input and ouput adapters'
 
 with open('requirements.txt') as requirements:
     REQUIREMENTS = requirements.readlines()
 
 setup(
-    name='ChatterBot IO Adapters',
+    name='chatterbot-io-adapters',
     version=VERSION,
     url=URL,
     download_url='{}/tarball/{}'.format(URL, VERSION),
@@ -31,7 +31,7 @@ setup(
         'chatterbot_io_adapters.input',
         'chatterbot_io_adapters.output',
     ],
-    package_dir={'chatterbot_io_adapters': 'cioa'},
+    package_dir={'chatterbot_io_adapters': 'chatterbot_io_adapters'},
     include_package_data=True,
     install_requires=REQUIREMENTS,
     license='BSD',
