@@ -1,0 +1,26 @@
+language: python
+
+python:
+  - '2.7'
+  - '3.4'
+  - '3.5'
+
+os:
+  - linux
+  - windows
+
+install:
+  - pip install coveralls codeclimate-test-reporter
+  - pip install -r requirements.txt
+  - pip install -r dev-requirements.txt
+
+addons:
+    code_climate:
+        repo_token: 98f4b6c8a1b9a5e4b3316ec95840f319e714e1db
+
+script:
+  - flake8
+  - nosetests
+
+after_success:
+  - coveralls
