@@ -11,8 +11,8 @@ VERSION = CHATTERBOT_ADAPTERS.__version__
 AUTHOR = CHATTERBOT_ADAPTERS.__author__
 AUTHOR_EMAIL = CHATTERBOT_ADAPTERS.__email__
 URL = CHATTERBOT_ADAPTERS.__url__
-DESCRIPTION = 'ChatterBots input and ouput adapters'
-LONG_DESCRIPTION = 'ChatterBots input and ouput adapters'
+DESCRIPTION = 'ChatterBots input and output adapters'
+LONG_DESCRIPTION = 'ChatterBots input and output adapters'
 
 with open('requirements.txt') as requirements:
     REQUIREMENTS = requirements.readlines()
