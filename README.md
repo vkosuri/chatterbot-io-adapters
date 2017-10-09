@@ -1,14 +1,18 @@
-# Chatterbot IO Adapters
+# ChatterBot IO Adapters or Integrations
 
 [![Package Version](https://img.shields.io/pypi/v/chatterbot-io-adapters.svg)](https://pypi.python.org/pypi/chatterbot-io-adapters/)
 [![Build Status](https://travis-ci.org/vkosuri/chatterbot-io-adapters.svg?branch=master)](https://travis-ci.org/vkosuri/chatterbot-io-adapters)
 
-This repo is to address https://github.com/gunthercox/ChatterBot/issues/528
-
-## IO Adapters
-
 ChatterBot’s input adapters are designed to allow a chat bot to have a versatile method of receiving or retrieving input from a given source.
 
+## Current IO Adapters
+
+1. [Gitter.Im](https://gitter.im/chatter_bot/Lobby)
+2. [Hipchat](http://botlab.hipch.at/)
+3. [MailGun](https://documentation.mailgun.com/en/latest/)
+4. [MicrosoftBot](https://dev.botframework.com/)
+5. Windows/Linux Terminal
+6. Variable Input type adapter
 
 For instructions on how to use these adapters, please refer to the project documentation.
 
@@ -28,3 +32,11 @@ For examples, see the [examples](./examples) directory in this project's git rep
 pip install -r requirements.txt
 nosetests
 ```
+
+## Motivation
+
+This repo is to address https://github.com/gunthercox/ChatterBot/issues/528
+
+## License
+
+ChatterBo IO Adapters t is licensed under the [BSD 3-clause license](./LICENSE).
