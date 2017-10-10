@@ -39,4 +39,4 @@ This repo is to address https://github.com/gunthercox/ChatterBot/issues/528
 
 ## License
 
-ChatterBo IO Adapters are licensed under the [BSD 3-clause license](./LICENSE).
+ChatterBot IO Adapters are licensed under the [BSD 3-clause license](./LICENSE).
