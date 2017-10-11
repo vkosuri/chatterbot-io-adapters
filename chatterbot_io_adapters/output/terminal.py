@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-from .output_adapter import OutputAdapter
+from chatterbot_io_adapters.output import OutputAdapter
 
 
 class TerminalAdapter(OutputAdapter):
